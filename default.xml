@@ -485,6 +485,7 @@
   </project>
   <project path="bionic" name="android_bionic" remote="du" revision="lollipop" />
   <project path="development" name="android_development" remote="du" revision="lollipop" />
+  <project path="external/busybox" name="android_external_busybox" remote="du" revision="lollipop" />
   <project path="external/skia" name="android_external_skia" remote="du" revision="lollipop" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="du" revision="lollipop" />
   <project path="libcore" name="android_libcore" remote="du" revision="lollipop" /> 
