@@ -488,7 +488,8 @@
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="du" revision="lollipop" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="du" revision="lollipop" />
   
-  <!--misc-->  
+  <!--misc-->
+  <project path="manifest" name="android" remote="du" revision="lollipop" />
   <project path="art" name="android_art" remote="du" revision="lollipop" />
    <project path="build" name="android_build" remote="du" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
