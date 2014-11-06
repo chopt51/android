@@ -488,6 +488,7 @@
   <project path="external/skia" name="android_external_skia" remote="du" revision="lollipop" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="du" revision="lollipop" />
   <project path="external/fuse" name="android_external_fuse" remote="du" revision="lollipop" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="du" revision="lollipop" />
   <project path="libcore" name="android_libcore" remote="du" revision="lollipop" /> 
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="lollipop" /> 
 
