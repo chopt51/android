@@ -168,7 +168,6 @@
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" />
   <project path="external/jmdns" name="platform/external/jmdns" groups="pdk-cw-fs" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" groups="pdk-cw-fs,tradefed" />
   <project path="external/jsmn" name="platform/external/jsmn" groups="pdk" />
   <project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" />
@@ -488,6 +487,7 @@
   <project path="external/skia" name="android_external_skia" remote="du" revision="lollipop" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="du" revision="lollipop" />
   <project path="external/fuse" name="android_external_fuse" remote="du" revision="lollipop" />
+  <project path="external/jpeg" name="android_external_jpeg" remote="du" revision="lollipop" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="du" revision="lollipop" />
   <project path="libcore" name="android_libcore" remote="du" revision="lollipop" /> 
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="lollipop" /> 
