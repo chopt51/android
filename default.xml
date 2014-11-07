@@ -328,7 +328,6 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
@@ -490,7 +489,8 @@
   <project path="external/jpeg" name="android_external_jpeg" remote="du" revision="lollipop" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="du" revision="lollipop" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="du" revision="lollipop" />
-  <project path="libcore" name="android_libcore" remote="du" revision="lollipop" /> 
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="lollipop" />
+  <project path="libcore" name="android_libcore" remote="du" revision="lollipop" />
   <project path="vendor/du" name="android_vendor_du" remote="du" revision="lollipop" /> 
 
   <!--packages-->  
