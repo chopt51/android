@@ -81,7 +81,6 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="platform/external/chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -483,6 +482,7 @@
   <project path="bionic" name="android_bionic" remote="du" revision="lollipop" />
   <project path="development" name="android_development" remote="du" revision="lollipop" />
   <project path="external/busybox" name="android_external_busybox" remote="du" revision="lollipop" />
+  <project path="external/chromium_org" name="android_external_chromium-org" remote="du" revision="lollipop" />
   <project path="external/skia" name="android_external_skia" remote="du" revision="lollipop" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="du" revision="lollipop" />
   <project path="external/fuse" name="android_external_fuse" remote="du" revision="lollipop" />
