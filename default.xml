@@ -492,7 +492,6 @@
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="du" revision="lollipop" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="lollipop" />
   <project path="libcore" name="android_libcore" remote="du" revision="lollipop" />
-  <project path="vendor/du" name="android_vendor_du" remote="du" revision="lollipop" /> 
 
   <!--packages-->  
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="du" revision="lollipop" />
@@ -527,6 +526,7 @@
   <project path="vendor/asus" name="android_vendor_asus" remote="du" revision="lollipop" />
   <project path="vendor/audience" name="android_vendor_audience" remote="du" revision="lollipop" />
   <project path="vendor/broadcom" name="android_vendor_broadcom" remote="du" revision="lollipop" />
+  <project path="vendor/du" name="android_vendor_du" remote="du" revision="lollipop" /> 
   <project path="vendor/lge" name="android_vendor_lge" remote="du" revision="lollipop" />
   <project path="vendor/qcom" name="android_vendor_qcom" remote="du" revision="lollipop" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="du" revision="lollipop" />
