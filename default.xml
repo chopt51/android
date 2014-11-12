@@ -293,8 +293,6 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
@@ -310,28 +308,15 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom,qcom_display" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
-  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -458,6 +443,24 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="du" revision="lollipop" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="du" revision="lollipop" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="du" revision="lollipop" />
+
+  <!--hardware-->
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="du" revision="lollipop" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="du" revision="lollipop" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="lollipop" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="du" revision="lollipop" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="du" revision="lollipop" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="du" revision="lollipop" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="du" revision="lollipop" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="du" revision="lollipop" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="du" revision="lollipop" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="du" revision="lollipop" />
+  <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="du" revision="lollipop" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="du" revision="lollipop" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="du" revision="lollipop" />
+  <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="du" revision="lollipop" />
+  <project path="hardware/ti/omap4-aah" name="android_hardware_ti_omap4-aah" remote="du" revision="lollipop" />
+  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="du" revision="lollipop" />
   
   <!--misc-->
   <project path="manifest" name="android" remote="du" revision="lollipop" />
@@ -488,7 +491,6 @@
   <project path="external/srec" name="android_external_srec" remote="du" revision="lollipop" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="du" revision="lollipop" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="du" revision="lollipop" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="du" revision="lollipop" />
   <project path="libcore" name="android_libcore" remote="du" revision="lollipop" />
 
   <!--packages-->  
